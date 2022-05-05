@@ -26,20 +26,21 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 GET /tech
 
--- Retorna todas as tecnologias cadastradas pelos usuarios.
--- Todos podem ter acesso a essa rota, não é necessario login.
+- Retorna todas as tecnologias cadastradas pelos usuarios.
+- Todos podem ter acesso a essa rota, não é necessario login.
 
 Post /tech
 
--- È necessario o usuario está logado poder adicionar tecnologias
--- È obrigatorio conter o "userId" do usuario
--- O usuario poderá adicionar as suas tecnologias
---Exemplo:
-{
-"tech": "react",
-"level": "iniciante"
-"userId": 1
-}
+- È necessario o usuario está logado poder adicionar tecnologias
+- È obrigatorio conter o "userId" do usuario
+- O usuario poderá adicionar as suas tecnologias
+  --Exemplo:
+  ```{
+        "tech": "react",
+        "level": "iniciante"
+        "userId": 1
+  }
+  ```
 
 ## Info
 
@@ -54,9 +55,13 @@ Post /info
 -- È obrigatorio conter o "userId" do usuario
 -- O usuario poderá adicionar as suas informações
 --Exemplo:
+
+```
 {
-"telefone": "7599999978",
-"linkedin": "https://www.linkedin.com/in/nome",
-"github": "https://github.com/nome",
-"userId": 2
+    "telefone": "7599999978",
+    "linkedin": "https://www.linkedin.com/in/nome",
+    "github": "https://github.com/nome",
+    "userId": 2
 }
+
+```
