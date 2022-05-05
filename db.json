@@ -6,6 +6,62 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "emilly@mail.com",
+      "password": "$2a$10$jYOmTLBVU9vROmSfKQg/Mer04pGenTG3M7Dwzu84nMWurz0IjEJfa",
+      "name": "Emilly",
+      "age": 18,
+      "id": 2
+    },
+    {
+      "email": "maria@mail.com",
+      "password": "$2a$10$RXgXpGAdolo76PlUbvEBqutKiREjhck2nnvbEXg4LExljMrLtUqUO",
+      "name": "maria",
+      "age": 22,
+      "id": 3
+    }
+  ],
+  "tech": [
+    {
+      "tech": "react",
+      "level": "iniciante",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "tech": "JS",
+      "level": "intermediario",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "tech": "Ruby",
+      "level": "intermediario",
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "tech": "Java",
+      "level": "intermediario",
+      "userId": 3,
+      "id": 4
+    }
+  ],
+  "info": [
+    {
+      "telefone": "7599999978",
+      "linkedin": "https://www.linkedin.com/in/nome",
+      "github": "https://github.com/nome",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "telefone": "7599459978",
+      "linkedin": "https://www.linkedin.com/in/maria",
+      "github": "https://github.com/maria",
+      "userId": 3,
+      "id": 2
     }
   ]
 }
