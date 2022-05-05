@@ -34,8 +34,9 @@ Post /tech
 - È necessario o usuario está logado poder adicionar tecnologias
 - È obrigatorio conter o "userId" do usuario
 - O usuario poderá adicionar as suas tecnologias
-  --Exemplo:
-  ```{
+  - Exemplo:
+  ```
+  {
         "tech": "react",
         "level": "iniciante"
         "userId": 1
@@ -46,15 +47,15 @@ Post /tech
 
 GET /info
 
---É preciso o usuario está logado para ter acesso a essa rota
---Retorna as informações dos usuarios
+- É preciso o usuario está logado para ter acesso a essa rota
+- Retorna as informações dos usuarios
 
 Post /info
 
--- È necessario o usuario está logado poder adicionar as informações
--- È obrigatorio conter o "userId" do usuario
--- O usuario poderá adicionar as suas informações
---Exemplo:
+- È necessario o usuario está logado poder adicionar as informações
+- È obrigatorio conter o "userId" do usuario
+- O usuario poderá adicionar as suas informações
+  - Exemplo:
 
 ```
 {
